@@ -1,0 +1,29 @@
+{
+  "name": "0xfolio",
+  "version": "1.0.0",
+  "description": "A free HTML portfolio template for developers.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xAliRaza/0xFolio.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "portfolio-template",
+    "free-to-use"
+  ],
+  "author": {
+    "name": "Ali Raza",
+    "url": "https://0xali.com",
+    "github": "https://github.com/0xAliRaza",
+    "twitter": "https://twitter.com/0xAliRaza"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
