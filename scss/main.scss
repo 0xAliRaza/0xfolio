@@ -11,8 +11,7 @@
   'vendors-extensions/bootstrap';
 
 // 3. Vendors
-@import
-  '../node_modules/bootstrap/scss/bootstrap.scss';
+// @import '../node_modules/bootstrap/scss/bootstrap';
 
 // 4. Base stuff
 @import
@@ -24,6 +23,7 @@
 // 5. Layout-related sections
 @import
   'layout/header',
+  'layout/navbar',
   'layout/footer';
 
 // 6. Components

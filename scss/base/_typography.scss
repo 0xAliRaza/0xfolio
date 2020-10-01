@@ -1,0 +1,26 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.heading-primary {
+	font-size: 3.2rem;
+	font-weight: 300;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	text-transform: uppercase;
+	color: $color-white;
+	text-align: center;
+	&--main,
+	&--sub {
+        &:not(:last-of-type) {
+            margin-bottom: .8rem;
+        }
+		display: block;
+	}
+	&--sub {
+		font-size: 1.6rem;
+    }
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,14 @@
+html {
+    font-size: 50%;
+}
+
+body {
+    color: $color-text;
+    
+}
+
+a {
+    @include plain-hover-focus {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,25 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-transform: uppercase;
+    background-color: transparent !important;
+
+	&-toggler {
+		&:hover, &:focus, &:active {
+			text-decoration: none;
+			outline: none;
+        }
+		border: none;
+		font-size: 2rem;
+	}
+
+	&-brand {
+		font-size: 2rem;
+	}
+
+	.nav-link {
+		font-size: 1.6rem;
+	}
+}
