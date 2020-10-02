@@ -1,6 +1,7 @@
-$color-primary: #4cd137;
-$color-primary-dark: #3fbb2b;
-$color-primary-light: #65d753;
+
+$color-primary: #0984e3;
+$color-primary-light: #1895f6;
+$color-primary-dark: #0871c2;
 
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eeeeee;
@@ -8,9 +9,11 @@ $color-grey-light-3: #dadada;
 
 $color-grey-dark-1: #999999;
 $color-grey-dark-2: #777777;
-$color-grey-dark-3: #333333;
+$color-grey-dark-3: #555555;
+$color-grey-dark-4: #333333;
 
-$color-text: $color-grey-light-2;
+$color-text-black: $color-grey-dark-3;
+$color-text-white: $color-grey-light-2;
 
 $color-white: #fff;
 $color-black: #000;

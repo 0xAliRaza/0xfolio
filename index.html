@@ -12,16 +12,15 @@
 
     <body>
         <header class="header">
+            <!-- Top fixed navbar -->
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <div class="container">
-
                     <a class="navbar-brand" href="#">John Doe</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
@@ -44,7 +43,7 @@
                 </div>
             </nav>
 
-
+            <!-- Centered content -->
             <div class="header__content">
                 <div class="header__img-box">
                     <img src="/img/developer.jpg" alt="John Doe" class="header__img">
@@ -59,6 +58,252 @@
                 </div>
             </div>
         </header>
+
+        <div class="container">
+            <section class="about">
+                <h2 class="heading-secondary">About me</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-6">
+                        <div class="about__content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quidem eligendi harum,
+                                laboriosam in corporis ea ex temporibus reiciendis consequuntur, non totam nihil
+                                asperiores quia porro beatae aliquid quam sunt.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae natus repellat vitae
+                                facilis quae veniam dolor soluta, harum dolore quasi, pariatur sunt odio, blanditiis
+                                ipsa? Sunt consequatur quod voluptatem sit amet consectetur adipisicing elit. Aliquam
+                                molestiae, ipsam perspiciatis perferendis fugiat, dolores corporis sint illum laboriosam
+                                nam asperiores voluptatibus et natus enim officia atque? Sunt, sit itaque?</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="about__icons-box">
+                    <ul class="list list--social">
+                        <li title="Gmail" class="list__item">
+                            <a href="#" class="list__link">
+                                <svg class="list__icon">
+                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-gmail"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li title="Github" class="list__item">
+                            <a href="#" class="list__link">
+                                <svg class="list__icon">
+                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li title="Twitter" class="list__item">
+                            <a href="#" class="list__link">
+                                <svg class="list__icon">
+                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li title="Medium" class="list__item">
+                            <a href="#" class="list__link">
+                                <svg class="list__icon">
+                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-medium"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li title="Discord" class="list__item">
+                            <a href="#" class="list__link">
+                                <svg class="list__icon">
+                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-discord"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+
+                <div class="about__cta-box text-center">
+                    <a href="#" class="btn btn--ghost">
+                        <svg class="icon btn__icon">
+                            <use xlink:href="/img/SVG/symbol-defs.svg#icon-file-pdf"></use>
+                        </svg>
+                        Resume
+                    </a>
+                    <a href="#" class="btn btn--full">Contact</a>
+                </div>
+            </section>
+
+            <section class="work">
+                <h2 class="heading-secondary">Things I've made</h2>
+                <div class="work__content work__content--projects">
+                    <div class="row justify-content-center">
+                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                            <div class="project shadow"> 
+                                <div class="project__img-box">
+                                    <img src="/img/project-1.jpg" alt="Project 1" class="project__img img-fluid">
+                                </div>
+                                <div class="project__content-box">
+                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
+                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
+                                        aspernatur
+                                        quaerat porro amet!</p>
+                                    <div class="project__cta-box text-center">
+                                        <a href="#" class="btn btn--full">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                            </svg>
+                                            Demo</a>
+                                        <a href="#" class="btn btn--ghost">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                            </svg>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                            <div class="project shadow"> 
+                                <div class="project__img-box">
+                                    <img src="/img/project-2.jpg" alt="Project 2" class="project__img img-fluid">
+                                </div>
+                                <div class="project__content-box">
+                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
+                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
+                                        aspernatur
+                                        quaerat porro amet!</p>
+                                    <div class="project__cta-box text-center">
+                                        <a href="#" class="btn btn--full">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                            </svg>
+                                            Demo</a>
+                                        <a href="#" class="btn btn--ghost">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                            </svg>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                            <div class="project shadow"> 
+                                <div class="project__img-box">
+                                    <img src="/img/project-3.jpg" alt="Project 3" class="project__img img-fluid">
+                                </div>
+                                <div class="project__content-box">
+                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
+                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
+                                        aspernatur
+                                        quaerat porro amet!</p>
+                                    <div class="project__cta-box text-center">
+                                        <a href="#" class="btn btn--full">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                            </svg>
+                                            Demo</a>
+                                        <a href="#" class="btn btn--ghost">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                            </svg>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                            <div class="project shadow"> 
+                                <div class="project__img-box">
+                                    <img src="/img/project-4.jpg" alt="Project 4" class="project__img img-fluid">
+                                </div>
+                                <div class="project__content-box">
+                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
+                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
+                                        aspernatur
+                                        quaerat porro amet!</p>
+                                    <div class="project__cta-box text-center">
+                                        <a href="#" class="btn btn--full">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                            </svg>
+                                            Demo</a>
+                                        <a href="#" class="btn btn--ghost">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                            </svg>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                            <div class="project shadow"> 
+                                <div class="project__img-box">
+                                    <img src="/img/project-5.jpg" alt="Project 5" class="project__img img-fluid">
+                                </div>
+                                <div class="project__content-box">
+                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
+                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
+                                        aspernatur
+                                        quaerat porro amet!</p>
+                                    <div class="project__cta-box text-center">
+                                        <a href="#" class="btn btn--full">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                            </svg>
+                                            Demo</a>
+                                        <a href="#" class="btn btn--ghost">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                            </svg>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                            <div class="project shadow"> 
+                                <div class="project__img-box">
+                                    <img src="/img/project-6.jpg" alt="Project 6" class="project__img img-fluid">
+                                </div>
+                                <div class="project__content-box">
+                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
+                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
+                                        aspernatur
+                                        quaerat porro amet!</p>
+                                    <div class="project__cta-box text-center">
+                                        <a href="#" class="btn btn--full">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                            </svg>
+                                            Demo</a>
+                                        <a href="#" class="btn btn--ghost">
+                                            <svg class="icon icon-earth">
+                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                            </svg>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <div style="min-height: 500px"></div>
+        </div>
+
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
         <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>

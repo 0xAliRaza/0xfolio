@@ -3,11 +3,12 @@ html {
 }
 
 body {
-    color: $color-text;
-    
+    color: $color-text-black;
+    background-color: $color-grey-light-1;
 }
 
 a {
+    cursor: pointer;
     @include plain-hover-focus {
         text-decoration: none;
     }

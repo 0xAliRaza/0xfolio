@@ -1,0 +1,31 @@
+
+
+.project {
+	display: block;
+	overflow: hidden;
+	border: 1px solid $color-grey-light-3;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+
+	&__img-box {
+		cursor: pointer;
+		background-color: #000;
+		overflow: hidden;
+	}
+	&__img {
+		// transform: scale(1.2);
+		// transition: opacity .5s, transform .5s;
+		// @include hover {
+		//     transform: scale(1);
+		//     opacity: 1;
+		// }
+		// opacity: 0.8;
+	}
+
+	&__content-box {
+		padding: 2rem;
+	}
+	&__cta-box {
+		margin-top: 2rem;
+	}
+}

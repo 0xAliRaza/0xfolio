@@ -1,39 +1,25 @@
 @charset "UTF-8";
 
 // 1. Configuration and helpers
-@import
-  'abstracts/variables',
-  'abstracts/functions',
-  'abstracts/mixins';
+@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins';
 
 // 2. Vendors extensions (modifiers)
-@import
-  'vendors-extensions/bootstrap';
+@import 'vendors-extensions/bootstrap';
 
 // 3. Vendors
 // @import '../node_modules/bootstrap/scss/bootstrap';
 
 // 4. Base stuff
-@import
-  'base/base',
-  'base/fonts',
-  'base/typography',
-  'base/helpers';
+@import 'base/base', 'base/fonts', 'base/typography', 'base/helpers';
 
 // 5. Layout-related sections
-@import
-  'layout/header',
-  'layout/navbar',
-  'layout/footer';
+@import 'layout/header', 'layout/navbar', 'layout/footer';
 
 // 6. Components
-@import
-  'components/button';
+@import 'components/button', 'components/list', 'components/icon', 'components/project-box';
 
 // 7. Page-specific styles
-@import
-  'pages/home';
+@import 'pages/home';
 
 // 8. Themes
-@import
-  'themes/default';
+@import 'themes/default';

@@ -1,0 +1,18 @@
+.list {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	&__item {
+		padding: 0.7rem;
+	}
+
+	&__icon {
+		fill: currentColor;
+		width: 2rem;
+		height: 2rem;
+	}
+
+}
