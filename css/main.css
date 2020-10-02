@@ -24,7 +24,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -325,7 +325,7 @@ template {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #f7f7f7;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -2320,8 +2320,8 @@ template {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #f7f7f7;
+  border-color: #dee2e6 #dee2e6 #f7f7f7;
 }
 
 .nav-tabs .dropdown-menu {
@@ -6880,14 +6880,15 @@ p:not(:last-of-type) {
 }
 
 section {
-  padding-bottom: 6rem;
-}
-
-section:first-of-type {
   padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .about__cta-box {
   margin: 3rem 0;
+}
+
+.work {
+  background-color: #f1f1f1;
 }
 /*# sourceMappingURL=main.css.map */

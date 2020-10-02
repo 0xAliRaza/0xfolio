@@ -1,14 +1,14 @@
 section {
-    &:first-of-type {
-        padding-top: 6rem;
-    }
-
-    padding-bottom: 6rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 
 .about {
-    &__cta-box {
-        margin: 3rem 0;
-    }
+	&__cta-box {
+		margin: 3rem 0;
+	}
 }
 
+.work {
+	background-color: $body-bg-dark;
+}
