@@ -9,7 +9,11 @@ body {
 
 a {
     cursor: pointer;
-    @include plain-hover-focus {
-        text-decoration: none;
+    
+}
+
+button {
+    &:focus {
+        outline: none;
     }
 }

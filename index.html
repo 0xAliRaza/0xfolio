@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <link rel="stylesheet" href="/css/main.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
         <title>0xFolio - Free portfolio template for developers</title>
     </head>
 
@@ -131,180 +130,317 @@
 
             <section class="work">
                 <h2 class="heading-secondary">Things I've made</h2>
-                <div class="work__content work__content--projects">
-                    <div class="row justify-content-center">
-                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                            <div class="project shadow"> 
-                                <div class="project__img-box">
-                                    <img src="/img/project-1.jpg" alt="Project 1" class="project__img img-fluid">
-                                </div>
-                                <div class="project__content-box">
-                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
-                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
-                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
-                                        aspernatur
-                                        quaerat porro amet!</p>
-                                    <div class="project__cta-box text-center">
-                                        <a href="#" class="btn btn--full">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                            </svg>
-                                            Demo</a>
-                                        <a href="#" class="btn btn--ghost">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                            </svg>
-                                            Source</a>
-                                    </div>
-                                </div>
 
+                <ul class="nav nav-tabs justify-content-center mt-5 mb-4" id="workTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="projects-tab" data-toggle="tab" href="#projects" role="tab"
+                            aria-controls="projects" aria-selected="true">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="snippets-tab" data-toggle="tab" href="#snippets" role="tab"
+                            aria-controls="snippets" aria-selected="false">Snippets</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Technology</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">HTML</a>
+                            <a class="dropdown-item" href="#">CSS</a>
+                            <a class="dropdown-item" href="#">PHP</a>
+                            <a class="dropdown-item" href="#">Laravel</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="tab-content">
+
+                    <div class="work__content work__content--projects tab-pane fade show active" id="projects"
+                        role="tabpanel" aria-labelledby="projects-tab">
+                        <div class="row justify-content-center">
+                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="project">
+                                    <div class="project__img-box">
+                                        <img src="/img/project-1.jpg" alt="Project 1" class="project__img img-fluid">
+                                    </div>
+                                    <div class="project__content-box">
+                                        <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
+                                            tenetur
+                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
+                                            minus
+                                            aspernatur
+                                            quaerat porro amet!</p>
+                                        <div class="project__cta-box text-center">
+                                            <a href="#" class="btn btn--full">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                                </svg>
+                                                Demo</a>
+                                            <a href="#" class="btn btn--ghost">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                                </svg>
+                                                Source</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="project">
+                                    <div class="project__img-box">
+                                        <img src="/img/project-2.jpg" alt="Project 2" class="project__img img-fluid">
+                                    </div>
+                                    <div class="project__content-box">
+                                        <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
+                                            tenetur
+                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
+                                            minus
+                                            aspernatur
+                                            quaerat porro amet!</p>
+                                        <div class="project__cta-box text-center">
+                                            <a href="#" class="btn btn--full">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                                </svg>
+                                                Demo</a>
+                                            <a href="#" class="btn btn--ghost">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                                </svg>
+                                                Source</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="project">
+                                    <div class="project__img-box">
+                                        <img src="/img/project-3.jpg" alt="Project 3" class="project__img img-fluid">
+                                    </div>
+                                    <div class="project__content-box">
+                                        <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
+                                            tenetur
+                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
+                                            minus
+                                            aspernatur
+                                            quaerat porro amet!</p>
+                                        <div class="project__cta-box text-center">
+                                            <a href="#" class="btn btn--full">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                                </svg>
+                                                Demo</a>
+                                            <a href="#" class="btn btn--ghost">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                                </svg>
+                                                Source</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="project">
+                                    <div class="project__img-box">
+                                        <img src="/img/project-4.jpg" alt="Project 4" class="project__img img-fluid">
+                                    </div>
+                                    <div class="project__content-box">
+                                        <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
+                                            tenetur
+                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
+                                            minus
+                                            aspernatur
+                                            quaerat porro amet!</p>
+                                        <div class="project__cta-box text-center">
+                                            <a href="#" class="btn btn--full">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                                </svg>
+                                                Demo</a>
+                                            <a href="#" class="btn btn--ghost">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                                </svg>
+                                                Source</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="project">
+                                    <div class="project__img-box">
+                                        <img src="/img/project-5.jpg" alt="Project 5" class="project__img img-fluid">
+                                    </div>
+                                    <div class="project__content-box">
+                                        <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
+                                            tenetur
+                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
+                                            minus
+                                            aspernatur
+                                            quaerat porro amet!</p>
+                                        <div class="project__cta-box text-center">
+                                            <a href="#" class="btn btn--full">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                                </svg>
+                                                Demo</a>
+                                            <a href="#" class="btn btn--ghost">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                                </svg>
+                                                Source</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="project">
+                                    <div class="project__img-box">
+                                        <img src="/img/project-6.jpg" alt="Project 6" class="project__img img-fluid">
+                                    </div>
+                                    <div class="project__content-box">
+                                        <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
+                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
+                                            tenetur
+                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
+                                            minus
+                                            aspernatur
+                                            quaerat porro amet!</p>
+                                        <div class="project__cta-box text-center">
+                                            <a href="#" class="btn btn--full">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
+                                                </svg>
+                                                Demo</a>
+                                            <a href="#" class="btn btn--ghost">
+                                                <svg class="icon icon-earth">
+                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                                                </svg>
+                                                Source</a>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
-                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                            <div class="project shadow"> 
-                                <div class="project__img-box">
-                                    <img src="/img/project-2.jpg" alt="Project 2" class="project__img img-fluid">
-                                </div>
-                                <div class="project__content-box">
-                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
-                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
-                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
-                                        aspernatur
-                                        quaerat porro amet!</p>
-                                    <div class="project__cta-box text-center">
-                                        <a href="#" class="btn btn--full">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                            </svg>
-                                            Demo</a>
-                                        <a href="#" class="btn btn--ghost">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                            </svg>
-                                            Source</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                            <div class="project shadow"> 
-                                <div class="project__img-box">
-                                    <img src="/img/project-3.jpg" alt="Project 3" class="project__img img-fluid">
-                                </div>
-                                <div class="project__content-box">
-                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
-                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
-                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
-                                        aspernatur
-                                        quaerat porro amet!</p>
-                                    <div class="project__cta-box text-center">
-                                        <a href="#" class="btn btn--full">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                            </svg>
-                                            Demo</a>
-                                        <a href="#" class="btn btn--ghost">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                            </svg>
-                                            Source</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                            <div class="project shadow"> 
-                                <div class="project__img-box">
-                                    <img src="/img/project-4.jpg" alt="Project 4" class="project__img img-fluid">
-                                </div>
-                                <div class="project__content-box">
-                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
-                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
-                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
-                                        aspernatur
-                                        quaerat porro amet!</p>
-                                    <div class="project__cta-box text-center">
-                                        <a href="#" class="btn btn--full">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                            </svg>
-                                            Demo</a>
-                                        <a href="#" class="btn btn--ghost">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                            </svg>
-                                            Source</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                            <div class="project shadow"> 
-                                <div class="project__img-box">
-                                    <img src="/img/project-5.jpg" alt="Project 5" class="project__img img-fluid">
-                                </div>
-                                <div class="project__content-box">
-                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
-                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
-                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
-                                        aspernatur
-                                        quaerat porro amet!</p>
-                                    <div class="project__cta-box text-center">
-                                        <a href="#" class="btn btn--full">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                            </svg>
-                                            Demo</a>
-                                        <a href="#" class="btn btn--ghost">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                            </svg>
-                                            Source</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                            <div class="project shadow"> 
-                                <div class="project__img-box">
-                                    <img src="/img/project-6.jpg" alt="Project 6" class="project__img img-fluid">
-                                </div>
-                                <div class="project__content-box">
-                                    <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
-                                    <p class="project__details"> Architecto enim sunt amet doloremque ratione tenetur
-                                        cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex minus
-                                        aspernatur
-                                        quaerat porro amet!</p>
-                                    <div class="project__cta-box text-center">
-                                        <a href="#" class="btn btn--full">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                            </svg>
-                                            Demo</a>
-                                        <a href="#" class="btn btn--ghost">
-                                            <svg class="icon icon-earth">
-                                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                            </svg>
-                                            Source</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-
                     </div>
+
+                    <div class="work__content work__content--snippets tab-pane fade" id="snippets" role="tabpanel"
+                        aria-labelledby="snippets-tab">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <table class="table table-bordered table-striped my-5">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Title</th>
+                                            <th scope="col">Technology</th>
+                                            <th scope="col">Updated</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td><a href="#">Lorem ipsum doloraing elit.</a></td>
+                                            <td>Laravel</td>
+                                            <td>05-12-2019</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td><a href="#">Sapiente autem cum doloribus eius</a></td>
+                                            <td>PHP</td>
+                                            <td>04-10-2018</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td><a href="#">Lonsectetur adipisicing ratione</a></td>
+                                            <td>HTML</td>
+                                            <td>02-08-2019</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td><a href="#">Libero expedita esse debitis fuga</a></td>
+                                            <td>Angular</td>
+                                            <td>01-01-2018</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td><a href="#">Lsoluta tenetur quibusdam commodi.</a></td>
+                                            <td>JavaScript</td>
+                                            <td>25-10-2017</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td><a href="#">Vitae labore laboriosam illum explicabo</a></td>
+                                            <td>Laravel</td>
+                                            <td>05-10-2019</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td><a href="#">Voluptatibus nostrum neque vel quas</a></td>
+                                            <td>React</td>
+                                            <td>02-11-2018</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td><a href="#">Impedit odio vitae itaque suscipit.</a></td>
+                                            <td>HTML</td>
+                                            <td>03-10-2019</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td><a href="#">Qui amet atque repellat.</a></td>
+                                            <td>Sass</td>
+                                            <td>09-05-2019</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td><a href="#">Itaque suscipit debitis perferendis.</a></td>
+                                            <td>PHP</td>
+                                            <td>01-08-2017</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                                <nav aria-label="Work Code Snippets" class="my-4">
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item active">
+                                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">Next</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
             </section>
 
-            <div style="min-height: 500px"></div>
         </div>
 
+
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 
