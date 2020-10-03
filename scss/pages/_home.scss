@@ -12,3 +12,47 @@ section {
 .work {
 	background-color: $body-bg-dark;
 }
+
+.counter {
+	padding: 10rem 0;
+	background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.6),
+			rgba($color-black, 0.6)
+		),
+		url(/img/counter-bg-sm.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: $color-text-white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+
+	&__box {
+		box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+		border-radius: 5px;
+		background-color: rgba(255, 255, 255, 0.15);
+		backdrop-filter: blur(5px);
+		max-width: 37.5rem;
+		padding: 2rem;
+		margin: 0 auto 2rem;
+	}
+
+	&__icon-box {
+		margin-bottom: 1rem;
+	}
+	&__icon {
+		width: 8rem;
+		height: 8rem;
+	}
+	&__count {
+		line-height: 1.2;
+		font-size: 6rem;
+		margin-bottom: 1rem;
+	}
+
+	&__title {
+		font-size: 2.5rem;
+	}
+}
