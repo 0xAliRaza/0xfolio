@@ -5,10 +5,12 @@
 	border-bottom-left-radius: 1rem;
 	border-bottom-right-radius: 1rem;
 	box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.075);
-	transition: box-shadow .15s ease-in-out, border .15s ease-in-out;
+	transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
+	max-width: 50rem;
+	margin: 0 auto;
 
 	@include hover-focus-active {
-		box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.075);
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.075);
 		border-color: $color-grey-light-4;
 	}
 
