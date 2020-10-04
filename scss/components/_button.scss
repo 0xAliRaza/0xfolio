@@ -8,15 +8,15 @@
 	cursor: pointer;
 	border: 1px solid transparent;
 	border-radius: 100px;
-	padding: 1rem 3rem;
+	padding: pxToRem(8px) pxToRem(24px);
 	font-weight: 400;
-	font-size: 1.75rem;
+	font-size: pxToRem(14px);
 	color: $color-text-white;
 	white-space: nowrap;
 	vertical-align: middle;
 	transition: all 0.3s ease;
 	&:not(:last-of-type) {
-		margin-right: 0.5rem;
+		margin-right: pxToRem(4);
 	}
 
 	&--full {
@@ -51,11 +51,11 @@
 		color: $color-primary;
 		border-radius: 0;
 		padding: 0;
-		padding: 0.5rem;
+		padding: pxToRem(4);
 	}
 
 	&__icon, & .icon {
-		margin-right: .5rem;
+		margin-right: pxToRem(4);
 	}
 
 }

@@ -43,24 +43,15 @@ $primary: $color-primary;
 
 
 
-.table {
-    font-size: 1.8rem;
-}
-.pagination {
-    font-size: 2rem;
-    .page-item {
-        &:first-child .page-link {
-            border-top-left-radius: .5rem;
-            border-bottom-left-radius: .5rem;
-        }
-        &:last-child .page-link {
-            border-top-right-radius: .5rem;
-            border-bottom-right-radius: .5rem;
-        }
-    }
-    .page-link {
-        font-size: 2rem;
-        padding: 1rem 1.5rem;
-
-    }
+.nav {
+	.nav-link {
+		&.active {
+			color: $color-text-black;
+		}
+	}
+	.nav-item > .dropdown-menu {
+		.dropdown-item {
+			color: $color-text-black;
+		}
+	}
 }

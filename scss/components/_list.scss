@@ -6,13 +6,13 @@
 	align-items: center;
 
 	&__item {
-		padding: 0.7rem;
+		padding: pxToRem(6);
 	}
 
 	&__icon {
 		fill: currentColor;
-		width: 2rem;
-		height: 2rem;
+		width: pxToRem(16);
+		height: pxToRem(16);
 	}
 
 }

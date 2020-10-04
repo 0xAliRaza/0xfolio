@@ -4,8 +4,7 @@
 	left: 0;
 	width: 100%;
 	text-transform: uppercase;
-	background-color: transparent !important;
-	padding: 1rem 1.5rem;
+	background-color: transparent;
 
 	&-toggler {
 		&:hover,
@@ -15,31 +14,7 @@
 			outline: none;
 		}
 		border: none;
-		font-size: 2rem;
 	}
 
-	&-brand {
-		font-size: 2rem;
-	}
-
-	.nav-link {
-		padding: 1rem 2rem;
-		font-size: 1.6rem;
-	}
 }
 
-.nav {
-	.nav-link {
-		padding: 1rem 2rem;
-		font-size: 2rem;
-		&.active {
-			color: $color-text-black;
-		}
-	}
-	.nav-item > .dropdown-menu {
-		.dropdown-item {
-			color: $color-text-black;
-		}
-		font-size: 2rem;
-	}
-}

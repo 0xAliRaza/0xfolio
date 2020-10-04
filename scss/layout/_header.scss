@@ -24,12 +24,12 @@
 	}
 
 	&__img-box {
-		margin: -5rem 0 1rem;
+		margin: pxToRem(-40) 0 pxToRem(8);
 	}
 	&__img {
-		box-shadow: 0 0rem 2rem rgba($color-black, 0.3);
-		height: 15rem;
-		width: 15rem;
+		box-shadow: 0 0 pxToRem(16) rgba($color-black, 0.3);
+		height: pxToRem(120);
+		width: pxToRem(120);
 		border-radius: 50%;
 	}
 }

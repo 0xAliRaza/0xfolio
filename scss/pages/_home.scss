@@ -1,11 +1,11 @@
 section {
-	padding-top: 6rem;
-	padding-bottom: 6rem;
+	padding-top: pxToRem(50);
+	padding-bottom: pxToRem(50);
 }
 
 .about {
 	&__cta-box {
-		margin: 3rem 0;
+		margin: pxToRem(25) 0;
 	}
 }
 
@@ -14,7 +14,7 @@ section {
 }
 
 .counter {
-	padding: 10rem 0;
+	padding: pxToRem(80) 0;
 	background-image: linear-gradient(
 			to right,
 			rgba($color-black, 0.6),
@@ -30,29 +30,36 @@ section {
 	font-weight: 300;
 
 	&__box {
-		box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 0 pxToRem(8) 0 rgba($color-black, 0.2);
 		border-radius: 5px;
-		background-color: rgba(255, 255, 255, 0.15);
+		background-color: rgba($color-white, 0.15);
 		backdrop-filter: blur(5px);
-		max-width: 37.5rem;
-		padding: 2rem;
-		margin: 0 auto 2rem;
+		max-width: pxToRem(300);
+		padding: pxToRem(16);
+		margin: 0 auto pxToRem(16);
+		transition: box-shadow .2s ease-in-out, transform .2s ease-out;
+
+		@include hover-focus-active {
+			box-shadow: 0 0 pxToRem(10) 0 rgba($color: $color-black, $alpha: .3);
+			transform: translateY(pxToRem(-5));
+		}
+		
 	}
 
 	&__icon-box {
-		margin-bottom: 1rem;
+		margin-bottom: pxToRem(8);
 	}
 	&__icon {
-		width: 8rem;
-		height: 8rem;
+		width: pxToRem(64);
+		height: pxToRem(64);
 	}
 	&__count {
 		line-height: 1.2;
-		font-size: 6rem;
-		margin-bottom: 1rem;
+		font-size: pxToRem(48);
+		margin-bottom: pxToRem(8);
 	}
 
 	&__title {
-		font-size: 2.5rem;
+		font-size: pxToRem(20);
 	}
 }
