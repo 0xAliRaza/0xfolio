@@ -342,7 +342,7 @@
                         aria-labelledby="snippets-tab">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-10 col-lg-8">
-                                <table class="table table-bordered table-striped my-5">
+                                <table class="table table-sm table-responsive-sm table-bordered table-striped my-5">
                                     <thead>
                                         <tr>
                                             <th scope="col">#</th>
@@ -486,6 +486,39 @@
                             <span class="counter__count">18</span>
                             <p class="counter__title">Years lived</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8">
+                        <h2 class="heading-secondary ">Contact me</h2>
+                        <form>
+                            <div class="form-group">
+                              <label for="Username">Username</label>
+                              <input required type="text" class="form-control" id="Username">
+                            </div>
+                            <div class="form-group">
+                              <label for="Email">Email</label>
+                              <input required type="email" class="form-control" id="Email">
+                            </div>
+                            <div class="form-group">
+                              <label for="subject">Subject</label>
+                              <input required type="text" class="form-control" id="subject">
+                            </div>
+
+                            <div class="form-group">
+                              <label for="message">Your message</label>
+                              <textarea required type="text" class="form-control" id="message" rows="4"></textarea>
+                            </div>
+                            
+
+                            <button type="submit" class="btn btn--full float-right">Send <svg class="icon contact__icon">
+                                <use xlink:href="/img/SVG/symbol-defs.svg#icon-paper-plane"></use>
+                            </svg></button>
+                          </form>
                     </div>
                 </div>
             </div>

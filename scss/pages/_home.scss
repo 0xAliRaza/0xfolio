@@ -4,6 +4,9 @@ section {
 }
 
 .about {
+	p {
+		font-size: pxToRem(18);
+	}
 	&__cta-box {
 		margin: pxToRem(25) 0;
 	}
@@ -11,6 +14,7 @@ section {
 
 .work {
 	background-color: $body-bg-dark;
+
 }
 
 .counter {
@@ -37,13 +41,12 @@ section {
 		max-width: pxToRem(300);
 		padding: pxToRem(16);
 		margin: 0 auto pxToRem(16);
-		transition: box-shadow .2s ease-in-out, transform .2s ease-out;
+		transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 
 		@include hover-focus-active {
-			box-shadow: 0 0 pxToRem(10) 0 rgba($color: $color-black, $alpha: .3);
+			box-shadow: 0 0 pxToRem(10) 0 rgba($color: $color-black, $alpha: 0.3);
 			transform: translateY(pxToRem(-5));
 		}
-		
 	}
 
 	&__icon-box {
@@ -61,5 +64,12 @@ section {
 
 	&__title {
 		font-size: pxToRem(20);
+	}
+}
+
+.contact {
+	&__icon, .icon {
+		margin-right: 0;
+		margin-left: pxToRem(4);
 	}
 }

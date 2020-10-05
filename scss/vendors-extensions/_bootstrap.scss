@@ -12,7 +12,7 @@ $primary: $color-primary;
 // @import "../../node_modules/bootstrap/scss/code";
 @import "../../node_modules/bootstrap/scss/grid";
 @import "../../node_modules/bootstrap/scss/tables";
-// @import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/forms";
 // @import "../../node_modules/bootstrap/scss/buttons";
 @import "../../node_modules/bootstrap/scss/transitions";
 @import "../../node_modules/bootstrap/scss/dropdown";
@@ -54,4 +54,10 @@ $primary: $color-primary;
 			color: $color-text-black;
 		}
 	}
+}
+
+
+.form-control:focus {
+	// border-color: $color-primary;
+	// box-shadow: 0 0 0 .2rem rgba($color-primary, .25);
 }

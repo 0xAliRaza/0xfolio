@@ -10,7 +10,7 @@
 	border-radius: 100px;
 	padding: pxToRem(8px) pxToRem(24px);
 	font-weight: 400;
-	font-size: pxToRem(14px);
+	font-size: pxToRem(15px);
 	color: $color-text-white;
 	white-space: nowrap;
 	vertical-align: middle;
@@ -57,5 +57,6 @@
 	&__icon, & .icon {
 		margin-right: pxToRem(4);
 	}
+
 
 }

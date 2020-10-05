@@ -5,7 +5,7 @@
 	border-bottom-left-radius: pxToRem(4px);
 	border-bottom-right-radius: pxToRem(4px);
 	box-shadow: 0 pxToRem(2) pxToRem(4) rgba(0, 0, 0, 0.075);
-	transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out, transform .2s ease-out;
+	transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out, transform .2s ease-in-out;
 	max-width: pxToRem(380);
 	margin: 0 auto;
 
