@@ -5,6 +5,9 @@ body {
 
 a {
     cursor: pointer;
+    @include hover {
+        text-decoration: none;
+    }
     
 }
 

@@ -14,7 +14,6 @@ section {
 
 .work {
 	background-color: $body-bg-dark;
-
 }
 
 .counter {
@@ -68,8 +67,16 @@ section {
 }
 
 .contact {
-	&__icon, .icon {
-		margin-right: 0;
-		margin-left: pxToRem(4);
+
+	.form-group .form-control {
+		min-height: pxToRem(40);
+		&:focus {
+			border: 1px solid rgba($color-primary, 0.3);
+			box-shadow: 0 0 pxToRem(5) 0 rgba($color-primary, 0.2);
+		}
 	}
+}
+
+.blog-section {
+	background-color: $body-bg-dark;
 }

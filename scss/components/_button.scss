@@ -54,7 +54,14 @@
 		padding: pxToRem(4);
 	}
 
-	&__icon, & .icon {
+	// &__icon, & .icon {
+	// 	margin-right: pxToRem(4);
+	// }
+
+	&__icon-right {
+		margin-left: pxToRem(4);
+	}
+	&__icon-left {
 		margin-right: pxToRem(4);
 	}
 

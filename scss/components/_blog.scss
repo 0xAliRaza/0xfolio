@@ -1,0 +1,77 @@
+.blog {
+	background-color: $color-white;
+	max-width: pxToRem(360);
+	margin: 0 auto;
+    
+    &__img-box {
+        position: relative;
+	}
+    
+    &__tags-box {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: pxToRem(8);
+    }
+    &__tag {
+        text-transform: uppercase;
+        color: $color-text-white;
+        font-weight: 600;
+        background-color: rgba($color: $color-black, $alpha: .5);
+        // border-radius: pxToRem(3);
+        font-size: pxToRem(12px);
+        padding: pxToRem(3) pxToRem(6);
+        &:not(:last-of-type) {
+            margin-right: pxToRem(2);
+        }
+        @include hover-focus-active {
+            color: $color-text-white;
+        }
+
+    }
+
+	&__meta {
+		margin-bottom: pxToRem(8);
+	}
+    
+    &__author,
+	&__date {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		transition: all 0.15s ease;
+		&:not(:last-of-type) {
+			margin-right: pxToRem(14px);
+		}
+		.icon {
+			width: 0.9em;
+			height: 0.9em;
+			margin-right: pxToRem(4);
+		}
+	}
+
+	&__content-box {
+		.heading-tertiary {
+			color: $color-text-black;
+		}
+		padding: pxToRem(16);
+	}
+
+	&__details {
+		margin-bottom: pxToRem(16px);
+	}
+
+	&__btn {
+		.icon {
+			// margin-right: 0;
+			// margin-left: pxToRem(4);
+			transition: margin 0.1s;
+		}
+		@include hover-focus-active {
+			.icon {
+				margin-left: pxToRem(8);
+			}
+		}
+	}
+}
