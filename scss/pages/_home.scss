@@ -10,6 +10,15 @@ section {
 	&__cta-box {
 		margin: pxToRem(25) 0;
 	}
+	&__skills-icons {
+		line-height: 1.7;
+	}
+	&__skills-icon {
+		height: pxToRem(22);
+		width: pxToRem(22);
+		margin-right: pxToRem(5);
+	}
+			
 }
 
 .work {
@@ -67,7 +76,6 @@ section {
 }
 
 .contact {
-
 	.form-group .form-control {
 		min-height: pxToRem(40);
 		&:focus {
@@ -85,9 +93,13 @@ section {
 	padding-top: pxToRem(100);
 	padding-bottom: pxToRem(100);
 	min-height: 50vh;
-	background-image: linear-gradient(to right, rgba($color-black, .7), rgba($color-black, .7)), url(/img/footer-bg-lg.jpg);
+	background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.7),
+			rgba($color-black, 0.7)
+		),
+		url(/img/footer-bg-lg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-
 }
