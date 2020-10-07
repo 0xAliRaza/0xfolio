@@ -6,6 +6,9 @@ body {
 
 .heading-primary {
 	font-size: pxToRem(26px);
+	@include media-breakpoint-up(sm) {
+		font-size: pxToRem(30);
+	}
 	font-weight: 300;
 	letter-spacing: 2px;
 	word-spacing: 1px;
@@ -14,20 +17,26 @@ body {
 	text-align: center;
 	&--main,
 	&--sub {
-        &:not(:last-of-type) {
-            margin-bottom: pxToRem(6px);
-        }
+		&:not(:last-of-type) {
+			margin-bottom: pxToRem(6px);
+		}
 		display: block;
 	}
 	&--sub {
 		font-size: pxToRem(13px);
-    }
-    margin-bottom: pxToRem(16px);
+		@include media-breakpoint-up(sm) {
+			font-size: pxToRem(16);
+		}
+	}
+	margin-bottom: pxToRem(16px);
 }
 
 .heading-secondary {
 	display: block;
 	font-size: pxToRem(24);
+	@include media-breakpoint-up(sm) {
+		font-size: pxToRem(25);
+	}
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
@@ -36,27 +45,31 @@ body {
 	letter-spacing: 1px;
 
 	&::after {
-		content: "";
+		content: '';
 		display: block;
 		background-color: currentColor;
 		width: pxToRem(80);
 		height: 2px;
 		margin: pxToRem(16) auto 0;
-		
 	}
 }
 .heading-tertiary {
 	display: block;
 	font-size: pxToRem(20);
 	font-weight: 400;
-	text-transform: capitalize;
-	margin-bottom: pxToRem(10);
+	// margin-bottom: pxToRem(10);
 	color: $color-primary;
-	// letter-spacing: 1px;
+	@include media-breakpoint-up(sm) {
+		font-size: pxToRem(22);
+		// margin-bottom: pxToRem(14);
+				}
 }
 
 p {
 	font-size: pxToRem(16);
+	@include media-breakpoint-up(sm) {
+		font-size: pxToRem(18);
+	}
 	line-height: 1.4;
 	margin: 0;
 	&:not(:last-of-type) {

@@ -25,12 +25,20 @@
 
 	&__img-box {
 		margin: pxToRem(-40) 0 pxToRem(8);
+		@include media-breakpoint-up(sm) {	
+			margin: pxToRem(-40) 0 pxToRem(10);
+		}
 	}
 	&__img {
 		box-shadow: 0 0 pxToRem(16) rgba($color-black, 0.3);
 		height: pxToRem(120);
 		width: pxToRem(120);
 		border-radius: 50%;
+
+		@include media-breakpoint-up(sm) {	
+			height: pxToRem(150);
+			width: pxToRem(150);
+		}
 	}
 
 	&__social-icons {
@@ -38,5 +46,13 @@
 		bottom: pxToRem(10);
 		left: 50%;
 		transform: translateX(-50%);
+
+		@include media-breakpoint-up(sm) {
+			flex-direction: column;
+			top: 50%;
+			left: pxToRem(5);
+			bottom: initial;
+			transform: translateY(-50%);
+		}
 	}
 }

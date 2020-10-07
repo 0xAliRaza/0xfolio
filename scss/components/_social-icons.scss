@@ -7,13 +7,12 @@
 		align-items: center;
 		justify-content: center;
 		padding: pxToRem(5);
-		opacity: 0.8;
 	}
 
 	&__icon {
 		width: pxToRem(24);
 		height: pxToRem(24);
-		fill: $color-white;
+		fill: $color-grey-light-1;
     }
     
     &--lg &__icon {

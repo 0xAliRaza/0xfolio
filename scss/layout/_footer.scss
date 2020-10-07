@@ -20,6 +20,7 @@
 	}
 
 	&__nav {
+		padding: pxToRem(10) 0;
 		border-top: 1px solid $color-grey-dark-4;
 		a.nav-link {
 			padding: pxToRem(10) pxToRem(16);
@@ -37,11 +38,14 @@
 	}
 
 	&__credits {
+		border-top: 1px solid $color-grey-dark-4;
+
         a {
             color: $color-text-white;
             border-bottom: 1px solid $color-text-white;
         }
-        margin-bottom: pxToRem(14px);
+		margin: 0;
+		padding: pxToRem(14) 0;
 		color: $color-text-white;
 	}
 

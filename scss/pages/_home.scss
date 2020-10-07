@@ -1,28 +1,49 @@
 section {
 	padding-top: pxToRem(50);
 	padding-bottom: pxToRem(50);
+	@include media-breakpoint-up(sm) {
+		padding-top: pxToRem(60);
+		padding-bottom: pxToRem(60);
+	}
 }
 
 .about {
 	p {
 		font-size: pxToRem(18);
+		@include media-breakpoint-up(sm) {
+			font-size: pxToRem(20);
+		}
 	}
 	&__cta-box {
-		margin: pxToRem(25) 0;
+		margin: pxToRem(25) 0 pxToRem(10) 0;
 	}
 	&__skills-icons {
 		line-height: 1.7;
+		padding: 0 pxToRem(10);
 	}
 	&__skills-icon {
 		height: pxToRem(22);
 		width: pxToRem(22);
 		margin-right: pxToRem(5);
+		@include media-breakpoint-up(sm) {
+			height: pxToRem(26);
+			width: pxToRem(26);
+			margin-right: pxToRem(7);
+		}
 	}
-			
 }
 
 .work {
 	background-color: $body-bg-dark;
+
+	&__content--snippets .table {
+		@include media-breakpoint-up(md) {
+			th,
+			td {
+				padding: pxToRem(12);
+			}
+		}
+	}
 }
 
 .counter {
@@ -77,7 +98,7 @@ section {
 
 .contact {
 	.form-group .form-control {
-		min-height: pxToRem(40);
+		min-height: pxToRem(45);
 		&:focus {
 			border: 1px solid rgba($color-primary, 0.3);
 			box-shadow: 0 0 pxToRem(5) 0 rgba($color-primary, 0.2);
@@ -88,4 +109,3 @@ section {
 .blog-section {
 	background-color: $body-bg-dark;
 }
-

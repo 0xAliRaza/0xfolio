@@ -11,6 +11,10 @@
 	padding: pxToRem(8px) pxToRem(24px);
 	font-weight: 400;
 	font-size: pxToRem(15px);
+	@include media-breakpoint-up(sm) {
+		font-size: pxToRem(16px);
+		padding: pxToRem(10px) pxToRem(26px);
+	}
 	color: $color-text-white;
 	white-space: nowrap;
 	vertical-align: middle;
