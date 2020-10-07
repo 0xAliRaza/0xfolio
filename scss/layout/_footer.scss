@@ -8,18 +8,27 @@
 			rgba($color-black, 0.5),
 			rgba($color-black, 0.5)
 		),
-		url(/img/footer-bg-lg.jpg);
+		url('/img/bg/footer-bg-lg.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	overflow: auto;
 
+	&__social-heading {
+		text-transform: uppercase;
+		color: $color-text-white;
+	}
 
 	&__nav {
-		.nav-link {
+		border-top: 1px solid $color-grey-dark-4;
+		a.nav-link {
+			padding: pxToRem(10) pxToRem(16);
+			border-bottom: 1px solid transparent;
 			color: $color-text-white;
+			text-transform: uppercase;
 			@include hover-focus-active {
 				color: $color-text-white;
+				text-decoration: underline;
 			}
 			&.active {
 				color: $color-text-white;

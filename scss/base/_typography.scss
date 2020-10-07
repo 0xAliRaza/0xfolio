@@ -38,7 +38,7 @@ body {
 	&::after {
 		content: "";
 		display: block;
-		background-color: $color-primary;
+		background-color: currentColor;
 		width: pxToRem(80);
 		height: 2px;
 		margin: pxToRem(16) auto 0;

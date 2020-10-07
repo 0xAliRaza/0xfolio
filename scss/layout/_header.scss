@@ -11,7 +11,7 @@
 			rgba($color-black, 0.7),
 			rgba($color-black, 0.7)
 		),
-		url(/img/header-bg-sm.jpg);
+		url('/img/bg/header-bg-sm.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -38,6 +38,5 @@
 		bottom: pxToRem(10);
 		left: 50%;
 		transform: translateX(-50%);
-
 	}
 }
