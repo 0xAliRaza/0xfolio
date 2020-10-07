@@ -80,3 +80,14 @@ section {
 .blog-section {
 	background-color: $body-bg-dark;
 }
+
+.footer {
+	padding-top: pxToRem(100);
+	padding-bottom: pxToRem(100);
+	min-height: 50vh;
+	background-image: linear-gradient(to right, rgba($color-black, .7), rgba($color-black, .7)), url(/img/footer-bg-lg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}

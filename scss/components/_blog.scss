@@ -2,6 +2,15 @@
 	background-color: $color-white;
 	max-width: pxToRem(360);
 	margin: 0 auto;
+	box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+	transition: box-shadow .2s ease-in-out, border .2s ease-in-out, transform .3s ease-in-out;
+	border: 1px solid $color-grey-light-3;
+
+	@include hover-focus {
+		box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+		border: 1px solid $color-grey-light-4;
+		transform: translateY(-.5rem);
+	}
     
     &__img-box {
         position: relative;
