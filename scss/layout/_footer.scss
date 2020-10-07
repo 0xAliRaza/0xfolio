@@ -1,3 +1,39 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.footer {
+	padding-top: pxToRem(70);
+	background-image: linear-gradient(
+			to top,
+			rgba($color-black, 0.5),
+			rgba($color-black, 0.5)
+		),
+		url(/img/footer-bg-lg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: auto;
+
+
+	&__nav {
+		.nav-link {
+			color: $color-text-white;
+			@include hover-focus-active {
+				color: $color-text-white;
+			}
+			&.active {
+				color: $color-text-white;
+			}
+		}
+	}
+
+	&__credits {
+        a {
+            color: $color-text-white;
+            border-bottom: 1px solid $color-text-white;
+        }
+        margin-bottom: pxToRem(14px);
+		color: $color-text-white;
+	}
+
+}

@@ -6,13 +6,13 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        padding: pxToRem(3);
+        padding: pxToRem(5);
         opacity: .8;
     }
 
     &__icon {
-        width: pxToRem(20);
-        height: pxToRem(20);
+        width: pxToRem(24);
+        height: pxToRem(24);
         fill: $color-white;
     }
     &--vertical {
