@@ -32,4 +32,12 @@
 		width: pxToRem(120);
 		border-radius: 50%;
 	}
+
+	&__social-icons {
+		position: absolute;
+		bottom: pxToRem(10);
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
 }

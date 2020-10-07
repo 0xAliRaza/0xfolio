@@ -1,0 +1,21 @@
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: pxToRem(3);
+        opacity: .8;
+    }
+
+    &__icon {
+        width: pxToRem(20);
+        height: pxToRem(20);
+        fill: $color-white;
+    }
+    &--vertical {
+        flex-direction: column  ;
+    }
+}
