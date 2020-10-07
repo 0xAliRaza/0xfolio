@@ -12,6 +12,36 @@
 			rgba($color-black, 0.7)
 		),
 		url('/img/bg/header-bg-sm.jpg');
+	@media (min-resolution: 192dpi) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.7),
+				rgba($color-black, 0.7)
+			),
+			url('/img/bg/header-bg-md.jpg');
+	}
+
+	// Above 1600px
+	@media only screen and (min-width: 100em) {
+		background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.7),
+			rgba($color-black, 0.7)
+		),
+		url('/img/bg/header-bg-md.jpg');
+	}
+	// Above 1920px
+	@media only screen and (min-width: 120em) {
+		background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.7),
+			rgba($color-black, 0.7)
+		),
+		url('/img/bg/header-bg-lg.jpg');
+	}
+
+
+
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -25,7 +55,7 @@
 
 	&__img-box {
 		margin: pxToRem(-40) 0 pxToRem(8);
-		@include media-breakpoint-up(sm) {	
+		@include media-breakpoint-up(sm) {
 			margin: pxToRem(-40) 0 pxToRem(10);
 		}
 	}
@@ -35,7 +65,7 @@
 		width: pxToRem(120);
 		border-radius: 50%;
 
-		@include media-breakpoint-up(sm) {	
+		@include media-breakpoint-up(sm) {
 			height: pxToRem(150);
 			width: pxToRem(150);
 		}

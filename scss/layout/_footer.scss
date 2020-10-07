@@ -4,15 +4,45 @@
 .footer {
 	padding-top: pxToRem(70);
 	background-image: linear-gradient(
-			to top,
+			to right,
 			rgba($color-black, 0.5),
 			rgba($color-black, 0.5)
 		),
-		url('/img/bg/footer-bg-lg.jpg');
+		url('/img/bg/footer-bg-sm.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	overflow: auto;
+	
+	@media (min-resolution: 192dpi) {
+		background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.5),
+			rgba($color-black, 0.5)
+		),
+		url('/img/bg/footer-bg-md.jpg');
+	}
+
+	// Above 640px
+	@media only screen and (min-width: 40em) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.5),
+				rgba($color-black, 0.5)
+			),
+			url('/img/bg/footer-bg-md.jpg');
+	}
+
+	// Above 1920px
+	@media only screen and (min-width: 120em) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.5),
+				rgba($color-black, 0.5)
+			),
+			url('/img/bg/footer-bg-lg.jpg');
+	}
+
 
 	&__social-heading {
 		text-transform: uppercase;

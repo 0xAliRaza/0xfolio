@@ -50,13 +50,43 @@ section {
 	padding: pxToRem(80) 0;
 	background-image: linear-gradient(
 			to right,
-			rgba($color-black, 0.6),
-			rgba($color-black, 0.6)
+			rgba($color-black, 0.7),
+			rgba($color-black, 0.7)
 		),
 		url('/img/bg/counter-bg-sm.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	background-attachment: fixed;
+
+	@media (min-resolution: 192dpi) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.7),
+				rgba($color-black, 0.7)
+			),
+			url('/img/bg/counter-bg-md.jpg');
+	}
+
+	// Above 640px
+	@media only screen and (min-width: 40em) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.7),
+				rgba($color-black, 0.7)
+			),
+			url('/img/bg/counter-bg-md.jpg');
+	}
+
+	// Above 1920px
+	@media only screen and (min-width: 120em) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.7),
+				rgba($color-black, 0.7)
+			),
+			url('/img/bg/counter-bg-lg.jpg');
+	}
+
 	color: $color-text-white;
 	text-transform: uppercase;
 	text-align: center;
