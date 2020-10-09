@@ -1,7 +1,7 @@
 .btn {
 	@include plain-hover-focus {
-        text-decoration: none;
-    }
+		text-decoration: none;
+	}
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -41,13 +41,10 @@
 		}
 	}
 
-
 	&__icon-right {
 		margin-left: pxToRem(4);
 	}
 	&__icon-left {
 		margin-right: pxToRem(4);
 	}
-
-
 }

@@ -2,49 +2,48 @@
 	background-color: $color-white;
 	max-width: pxToRem(360);
 	margin: 0 auto;
-	box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
-	transition: box-shadow .2s ease-in-out, border .2s ease-in-out, transform .3s ease-in-out;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+	transition: box-shadow 0.2s ease-in-out, border 0.2s ease-in-out,
+		transform 0.3s ease-in-out;
 	border: 1px solid $color-grey-light-3;
 
 	@include hover-focus {
-		box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 		border: 1px solid $color-grey-light-4;
-		transform: translateY(-.5rem);
+		transform: translateY(-0.5rem);
 	}
-    
-    &__img-box {
-        position: relative;
-	}
-    
-    &__tags-box {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: pxToRem(8);
-    }
-    &__tag {
-        text-transform: uppercase;
-        color: $color-text-white;
-        font-weight: 600;
-        background-color: rgba($color: $color-black, $alpha: .5);
-        // border-radius: pxToRem(3);
-        font-size: pxToRem(12px);
-        padding: pxToRem(3) pxToRem(6);
-        &:not(:last-of-type) {
-            margin-right: pxToRem(2);
-        }
-        @include hover-focus-active {
-            color: $color-text-white;
-        }
 
-    }
+	&__img-box {
+		position: relative;
+	}
+
+	&__tags-box {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		padding: pxToRem(8);
+	}
+	&__tag {
+		text-transform: uppercase;
+		color: $color-text-white;
+		font-weight: 600;
+		background-color: rgba($color: $color-black, $alpha: 0.5);
+		font-size: pxToRem(12px);
+		padding: pxToRem(3) pxToRem(6);
+		&:not(:last-of-type) {
+			margin-right: pxToRem(2);
+		}
+		@include hover-focus-active {
+			color: $color-text-white;
+		}
+	}
 
 	&__meta {
 		margin-bottom: pxToRem(8);
 	}
-    
-    &__author,
+
+	&__author,
 	&__date {
 		display: inline-flex;
 		align-items: center;
@@ -73,8 +72,6 @@
 
 	&__btn {
 		.icon {
-			// margin-right: 0;
-			// margin-left: pxToRem(4);
 			transition: margin 0.1s;
 		}
 		@include hover-focus-active {

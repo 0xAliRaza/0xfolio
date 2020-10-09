@@ -24,23 +24,21 @@
 	// Above 1600px
 	@media only screen and (min-width: 100em) {
 		background-image: linear-gradient(
-			to right,
-			rgba($color-black, 0.7),
-			rgba($color-black, 0.7)
-		),
-		url('/img/bg/header-bg-md.jpg');
+				to right,
+				rgba($color-black, 0.7),
+				rgba($color-black, 0.7)
+			),
+			url('/img/bg/header-bg-md.jpg');
 	}
 	// Above 1920px
 	@media only screen and (min-width: 120em) {
 		background-image: linear-gradient(
-			to right,
-			rgba($color-black, 0.7),
-			rgba($color-black, 0.7)
-		),
-		url('/img/bg/header-bg-lg.jpg');
+				to right,
+				rgba($color-black, 0.7),
+				rgba($color-black, 0.7)
+			),
+			url('/img/bg/header-bg-lg.jpg');
 	}
-
-
 
 	background-size: cover;
 	background-position: center;

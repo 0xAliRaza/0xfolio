@@ -57,12 +57,10 @@ body {
 	display: block;
 	font-size: pxToRem(20);
 	font-weight: 400;
-	// margin-bottom: pxToRem(10);
 	color: $color-primary;
 	@include media-breakpoint-up(sm) {
 		font-size: pxToRem(22);
-		// margin-bottom: pxToRem(14);
-				}
+	}
 }
 
 p {

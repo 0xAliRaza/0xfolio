@@ -8,8 +8,7 @@
 	padding: pxToRem(16) pxToRem(16);
 	text-transform: uppercase;
 	background-color: transparent;
-	transition: background-color 0.3s ease, padding 0.3s ease, transform .2s;
-
+	transition: background-color 0.3s ease, padding 0.3s ease, transform 0.2s;
 
 	.navbar-nav {
 		.nav-link {
@@ -37,12 +36,11 @@
 			}
 		}
 	}
-	
+
 	.navbar-brand {
 		@include media-breakpoint-up(md) {
 			font-size: pxToRem(23);
 		}
-
 	}
 	.navbar-toggler {
 		&:hover,
@@ -60,4 +58,3 @@
 		padding: pxToRem(9) pxToRem(16);
 	}
 }
-

@@ -13,14 +13,14 @@
 	background-position: center;
 	background-attachment: fixed;
 	overflow: auto;
-	
+
 	@media (min-resolution: 192dpi) {
 		background-image: linear-gradient(
-			to right,
-			rgba($color-black, 0.5),
-			rgba($color-black, 0.5)
-		),
-		url('/img/bg/footer-bg-md.jpg');
+				to right,
+				rgba($color-black, 0.5),
+				rgba($color-black, 0.5)
+			),
+			url('/img/bg/footer-bg-md.jpg');
 	}
 
 	// Above 640px
@@ -42,7 +42,6 @@
 			),
 			url('/img/bg/footer-bg-lg.jpg');
 	}
-
 
 	&__social-heading {
 		text-transform: uppercase;
@@ -70,13 +69,12 @@
 	&__credits {
 		border-top: 1px solid $color-grey-dark-4;
 
-        a {
-            color: $color-text-white;
-            border-bottom: 1px solid $color-text-white;
-        }
+		a {
+			color: $color-text-white;
+			border-bottom: 1px solid $color-text-white;
+		}
 		margin: 0;
 		padding: pxToRem(14) 0;
 		color: $color-text-white;
 	}
-
 }
