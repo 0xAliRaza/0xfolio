@@ -26,6 +26,9 @@
 	&__content-box {
 		padding: pxToRem(16);
 	}
+	&__details {
+		font-size: pxToRem(17);
+	}
 	&__cta-box {
 		margin: pxToRem(16) 0 pxToRem(8);
 	}

@@ -10,29 +10,29 @@
     </head>
 
     <body>
-        <header class="header">
+        <header class="header" id="header">
             <!-- Top fixed navbar -->
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <div class="container">
+            <nav class="navbar navbar-top navbar-expand-md navbar-dark header__navbar">
+                <div class="container-lg">
                     <a class="navbar-brand" href="#">John Doe</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    <button  class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTopCollapsible" aria-controls="navbarTopCollapsible"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbarTopCollapsible">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Work</a>
+                                <a class="nav-link" href="#work">Work</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Resume</a>
@@ -101,7 +101,7 @@
 
         </header>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <h2 class="heading-secondary">About me</h2>
                 <div class="row justify-content-center">
@@ -182,7 +182,7 @@
             </div>
         </section>
 
-        <section class="work">
+        <section class="work" id="work">
 
             <div class="container">
                 <h2 class="heading-secondary">Things I've made</h2>
@@ -546,7 +546,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-8">
