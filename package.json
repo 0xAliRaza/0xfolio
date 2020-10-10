@@ -1,42 +1,36 @@
 {
-  "name": "0xfolio",
-  "version": "1.0.0",
-  "description": "A free HTML portfolio template for developers.",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "live-server",
-    "scss": "node-sass ./scss --output ./css",
-    "scss:watch": "npm run scss -- --watch",
-    "start": "concurrently --kill-others \"npm run scss -- -w\" \"npm run serve\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/0xAliRaza/0xFolio.git"
-  },
-  "keywords": [
-    "html",
-    "css",
-    "portfolio-template",
-    "free-to-use"
-  ],
-  "author": {
-    "name": "Ali Raza",
-    "url": "https://0xali.com",
-    "github": "https://github.com/0xAliRaza",
-    "twitter": "https://twitter.com/0xAliRaza"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@popperjs/core": "^2.5.3",
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1",
-    "waypoints": "^4.0.1"
-  },
-  "devDependencies": {
-    "concurrently": "^5.3.0",
-    "live-server": "^1.2.1",
-    "node-sass": "^4.14.1"
-  }
+	"name": "0xfolio",
+	"version": "1.0.0",
+	"description": "A free HTML portfolio template for developers.",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"serve": "live-server",
+		"scss": "node-sass ./scss --output ./css",
+		"scss:watch": "npm run scss -- --watch",
+		"start": "concurrently --kill-others \"npm run scss -- -w\" \"npm run serve\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/0xAliRaza/0xFolio.git"
+	},
+	"keywords": [
+		"html",
+		"css",
+		"portfolio-template",
+		"free-to-use"
+	],
+	"author": {
+		"name": "Ali Raza",
+		"url": "https://0xali.com",
+		"github": "https://github.com/0xAliRaza",
+		"twitter": "https://twitter.com/0xAliRaza"
+	},
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"concurrently": "^5.3.0",
+		"live-server": "^1.2.1",
+		"node-sass": "^4.14.1"
+	}
 }

@@ -58,3 +58,18 @@
 		padding: pxToRem(9) pxToRem(16);
 	}
 }
+
+
+
+.nav {
+	.nav-link {
+		&.active {
+			color: $color-text-black;
+		}
+	}
+	.nav-item > .dropdown-menu {
+		.dropdown-item {
+			color: $color-text-black;
+		}
+	}
+}
