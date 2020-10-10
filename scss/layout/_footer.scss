@@ -8,7 +8,7 @@
 			rgba($color-black, 0.5),
 			rgba($color-black, 0.5)
 		),
-		url('/img/bg/footer-bg-sm.jpg');
+		asset($base-url, 'img/bg/', 'footer-bg-sm.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -20,7 +20,7 @@
 				rgba($color-black, 0.5),
 				rgba($color-black, 0.5)
 			),
-			url('/img/bg/footer-bg-md.jpg');
+			asset($base-url, 'img/bg/', 'footer-bg-md.jpg');
 	}
 
 	// Above 640px
@@ -30,7 +30,7 @@
 				rgba($color-black, 0.5),
 				rgba($color-black, 0.5)
 			),
-			url('/img/bg/footer-bg-md.jpg');
+			asset($base-url, 'img/bg/', 'footer-bg-md.jpg');
 	}
 
 	// Above 1920px
@@ -40,7 +40,7 @@
 				rgba($color-black, 0.5),
 				rgba($color-black, 0.5)
 			),
-			url('/img/bg/footer-bg-lg.jpg');
+			asset($base-url, 'img/bg/', 'footer-bg-lg.jpg');
 	}
 
 	&__social-heading {
