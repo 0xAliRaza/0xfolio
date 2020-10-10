@@ -4867,19 +4867,19 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xFolio/img/bg/header-bg-sm.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/header-bg-sm.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .header {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xFolio/img/bg/header-bg-md.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/header-bg-md.jpg"); } }
   @media only screen and (min-width: 100em) {
     .header {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xFolio/img/bg/header-bg-md.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/header-bg-md.jpg"); } }
   @media only screen and (min-width: 120em) {
     .header {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xFolio/img/bg/header-bg-lg.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/header-bg-lg.jpg"); } }
   .header__content {
     display: flex;
     flex-direction: column;
@@ -4962,20 +4962,20 @@ p {
 
 .footer {
   padding-top: 4.375rem;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/0xFolio/img/bg/footer-bg-sm.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/0xfolio/img/bg/footer-bg-sm.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   overflow: auto; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .footer {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/0xFolio/img/bg/footer-bg-md.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/0xfolio/img/bg/footer-bg-md.jpg"); } }
   @media only screen and (min-width: 40em) {
     .footer {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/0xFolio/img/bg/footer-bg-md.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/0xfolio/img/bg/footer-bg-md.jpg"); } }
   @media only screen and (min-width: 120em) {
     .footer {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/0xFolio/img/bg/footer-bg-lg.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/0xfolio/img/bg/footer-bg-lg.jpg"); } }
   .footer__social-heading {
     text-transform: uppercase;
     color: #eeeeee; }
@@ -5200,7 +5200,7 @@ section {
 
 .counter {
   padding: 5rem 0;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xFolio/img/bg/counter-bg-sm.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/counter-bg-sm.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -5210,13 +5210,13 @@ section {
   font-weight: 300; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .counter {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xFolio/img/bg/counter-bg-md.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/counter-bg-md.jpg"); } }
   @media only screen and (min-width: 40em) {
     .counter {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xFolio/img/bg/counter-bg-md.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/counter-bg-md.jpg"); } }
   @media only screen and (min-width: 120em) {
     .counter {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xFolio/img/bg/counter-bg-lg.jpg"); } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/counter-bg-lg.jpg"); } }
   .counter__box {
     box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
