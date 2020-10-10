@@ -6,9 +6,10 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"serve": "live-server",
-		"scss": "node-sass ./scss --output ./css",
-		"scss:watch": "npm run scss -- --watch",
-		"start": "concurrently --kill-others \"npm run scss -- -w\" \"npm run serve\""
+		"compile:scss": "node-sass --source-map true scss/main.scss css/main.comp.css",
+		"prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/main.comp.css -o css/main.prefix.css",
+		"compress:css": "node-sass css/main.prefix.css css/main.css --output-style compressed",
+		"build": "npm-run-all compile:scss prefix:css compress:css"
 	},
 	"repository": {
 		"type": "git",
@@ -29,8 +30,10 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
-		"concurrently": "^5.3.0",
-		"live-server": "^1.2.1",
-		"node-sass": "^4.14.1"
+		"autoprefixer": "^10.0.1",
+		"node-sass": "^4.14.1",
+		"npm-run-all": "^4.1.5",
+		"postcss": "^8.1.1",
+		"postcss-cli": "^8.1.0"
 	}
 }
