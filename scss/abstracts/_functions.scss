@@ -1,0 +1,5 @@
+
+/// Native `url(..)` function wrapper
+@function asset($base, $type, $path) {
+    @return url($base + $type + $path);
+}
