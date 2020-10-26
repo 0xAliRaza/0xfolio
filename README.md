@@ -56,7 +56,7 @@ Now let's build all the Sass files to CSS by this useful `build` npm script
 
 ## Authors
 
-Me **🙃**
+[Ali Raza](https://0xali.com) (me) **🙃**
 
 ## License
 
